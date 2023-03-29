@@ -1,18 +1,18 @@
-# data_collection_challenge
+# **data_collection_challenge**
 
-## Background
+## **Background**
 
 #### We are now ready to take on a full web-scraping and data analysis project. In bootcamp we’ve learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. We’ve also learned to scrape various types of information. These include HTML tables and recurring elements, like multiple news articles on a webpage.
 
 #### This Challenge is to strengthen the same core skills that we’ve been developing until now: collecting data, organizing and storing data, analyzing data, and then visually communicating your insights.
 
-## Tasks
+## **Tasks**
 
 #### The challenge consists of two deliverables:
 #### Deliverable 1 - Scrape titles and preview text from Mars news articles.
 #### Deliverable 2 - Scrape and analyze Mars weather data, which exists in a table.
 
-### Part 1: Scrape Titles and Preview Text from Mars News
+### **Part 1: Scrape Titles and Preview Text from Mars News**
 
 #### 1) Use automated browsing to visit the Mars news site. Inspect the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_news/index.html
 #### 2) Create a Beautiful Soup object and use it to extract text elements from the website.
@@ -23,7 +23,7 @@
 
 #### 4) Export the scraped data in a JSON file.
 
-### Part 2: Scrape and Analyze Mars Weather Data
+### **Part 2: Scrape and Analyze Mars Weather Data**
 
 #### 1) Use automated browsing to visit the Mars Temperature Data Site Links to an external site. Inspect the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html
 #### 2) Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
